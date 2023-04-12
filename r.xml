@@ -1,20 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"
-?>
-«rss version="2.0" xmlns: atom="htt
-p://www.w3.org/2005/Atom">
-<channel>
-‹title>Nombre-Sitio</title>
-<link>http://sitio.com</link>
-‹description>En este sitio podras enc
-ontrar.........bla, bla.
-</description>
-<language>es-ES</language>
-<item>
-<title>Mi Pagina</title>
-<link>http://sitio.com/pagina.html</l
-ink>
-<description>
-Pagina que....bla, bla.. </description>
-< item>
-</channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Ejemplo de RSS</title>
+    <link>https://www.ejemplo.com/rss</link>
+    <description>Este es un ejemplo de archivo RSS</description>
+    <language>es-es</language>
+    <item>
+      <title>Artículo de ejemplo</title>
+      <link>https://www.ejemplo.com/articulo1</link>
+      <description>Este es un artículo de ejemplo para demostrar cómo se puede usar RSS</description>
+      <pubDate>Mon, 12 Apr 2023 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
 </rss>
