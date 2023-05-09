@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>Ejemplo de RSS</title>
-    <link>https://www.ejemplo.com/rss</link>
-    <description>Este es un ejemplo de archivo RSS</description>
-    <language>es-es</language>
-    <item>
-      <title>Artículo de ejemplo</title>
-      <link>https://www.ejemplo.com/articulo1</link>
-      <description>Este es un artículo de ejemplo para demostrar cómo se puede usar RSS</description>
-      <pubDate>Mon, 12 Apr 2023 12:00:00 GMT</pubDate>
-    </item>
-  </channel>
-</rss>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Feed de Ejemplo</title>
+  <link href="https://www.ejemplo.com/feed.xml" rel="self"/>
+  <updated>2023-05-09T12:00:00Z</updated>
+  
+  <entry>
+    <title>Título de la entrada 1</title>
+    <link href="https://www.ejemplo.com/entrada1"/>
+    <published>2023-05-08T10:30:00Z</published>
+    <summary>Este es el resumen de la entrada 1.</summary>
+  </entry>
+  
+  <entry>
+    <title>Título de la entrada 2</title>
+    <link href="https://www.ejemplo.com/entrada2"/>
+    <published>2023-05-09T08:45:00Z</published>
+    <summary>Este es el resumen de la entrada 2.</summary>
+  </entry>
+  
+  <!-- Pueden haber más entradas aquí -->
+  
+</feed>
