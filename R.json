@@ -1,17 +1,12 @@
-{
-    "menu": {
-        "id": "file",
-        "value": "File",
-        "popup": {
-            "menuitems": [
-                {
-                    "value": "New", "onclick": "CreateNewDoc()"
-                },{
-                    "value": "Open", "onclick": "OpenDoc()"
-                },{
-                    "value": "Close", "onclick": "CloseDoc()"
-                }
-            ]
-        }
-    }
-}
+[
+  {
+    "nombre": "Pepito Conejo",
+    "edad": 25,
+    "carnet de conducir": true
+  },
+  {
+    "nombre": "Ana Barberá",
+    "edad": 90,
+    "carnet de conducir": false
+  }
+]
