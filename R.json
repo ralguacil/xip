@@ -1,1 +1,5 @@
-{"status":"success","country":"Italy","countryCode":"IT","region":"25","regionName":"Lombardy","city":"Brescia","zip":"25122","lat":45.5336,"lon":10.2194,"timezone":"Europe/Rome","isp":"INFOSTRADA","org":"","as":"AS1267 WIND TRE S.P.A.","query":"151.68.240.247"}
+{
+    "fruit": "Apple",
+    "size": "Large",
+    "color": "Red"
+}
